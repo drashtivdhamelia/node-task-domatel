@@ -165,9 +165,3 @@ curl --location 'http://localhost:5000/posts/user/:userId'
 ```
 
 ---
-
-## 👤 Author
-
-* **Drashti Dhameliya** - [GitHub Profile](https://www.google.com/search?q=https://github.com/drashtivdhamelia)
-
----
