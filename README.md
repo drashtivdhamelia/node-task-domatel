@@ -103,7 +103,7 @@ Below are common API endpoints. Replace `localhost:5000` with your base URL if d
 curl --location 'http://localhost:5000/auth/register' \
 --header 'Content-Type: application/json' \
 --data '{
-    "username": "testuser",
+    "name": "testuser",
     "email": "test@example.com",
     "password": "Password123"
 }'
