@@ -100,7 +100,7 @@ Below are common API endpoints. Replace `localhost:5000` with your base URL if d
 ### 1. User Registration
 
 ```bash
-curl --location 'http://localhost:5000/api/auth/register' \
+curl --location 'http://localhost:5000/auth/register' \
 --header 'Content-Type: application/json' \
 --data '{
     "username": "testuser",
@@ -113,7 +113,7 @@ curl --location 'http://localhost:5000/api/auth/register' \
 ### 2. User Login
 
 ```bash
-curl --location 'http://localhost:5000/api/auth/login' \
+curl --location 'http://localhost:5000/auth/login' \
 --header 'Content-Type: application/json' \
 --data '{
     "email": "test@example.com",
